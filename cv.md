@@ -12,7 +12,7 @@ Languages
 - Russin - proficiency
 - English - upper-intermediate
 - German - elementary
-Code examplee
+Code example
 function basicOp (b, a, c) {
     if (b==="+") {
         console.log (a+c);
