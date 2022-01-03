@@ -1,6 +1,7 @@
 body {
   padding: 20px;
   min-width: 320px;
+
   font-family: 'Roboto', sans-serif;
   font-size: 16px;
   line-height: 32px;
@@ -10,30 +11,12 @@ body {
 
 h1 {
   font-size: 36px;
-  line-height: 20px;
+  line-height: 30px;
 }
 
 .box {
-  display: flex;
-  flex-direction: column;
-  align-content: center;
   width: 1000px;
   margin: 0 auto;
-}
-
-.header {
-  display: flex;
-  flex-wrap: wrap;
-  justify-content: space-around; 
-  
-}
-
-.name {
-  align-self: flex-end;
-  display: flex;
-  flex-direction: column;
-  align-items: flex-end;
-  padding: 10px;
 }
 
 main {
@@ -42,16 +25,27 @@ main {
   justify-content: space-around;
 }
 
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-content: center; 
+  
+}
+
+section {
+  padding: 50px 20px 20px 20px;
+}
+
+aside, footer {
+  color: #96a8bb;
+  background-color: #15314d;
+  padding: 20px;
+}
+
 footer {
   display: flex;
   justify-content: space-between;
   align-items: center;
-}
-
-.aside, .header, footer {
-  color: #96a8bb;
-  background-color: #15314d;
-  padding: 20px;
 }
 
 h3 {
