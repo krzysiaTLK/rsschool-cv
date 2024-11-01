@@ -22,7 +22,7 @@ Christina Kushneruk
             console.log (a*c);
         } else {
              console.log (a/c);
-          } 
+          }
     }
 
 basicOp('+', 4, 7);         // Output: 11
